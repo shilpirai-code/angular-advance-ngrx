@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Mango",
+      "type": "fruit",
+      "image": "/assets/images/fruits/mango.png",
+      "price": 10,
+      "quantity": 0
+    },
+    {
+      "name": "Apple",
+      "type": "fruit",
+      "image": "/assets/images/fruits/apple.png",
+      "price": 5,
+      "quantity": 0
+    },
+    {
+      "name": "Banana",
+      "type": "fruit",
+      "image": "/assets/images/fruits/banana.png",
+      "price": 2,
+      "quantity": 0
+    },
+    {
+      "name": "Potato",
+      "type": "vegetable",
+      "image": "/assets/images/vegetables/potato.png",
+      "price": 3,
+      "quantity": 0
+    },
+    {
+      "name": "Tomato",
+      "type": "vegetable",
+      "image": "/assets/images/vegetables/tomato.png",
+      "price": 4,
+      "quantity": 0
+    }
+  ]

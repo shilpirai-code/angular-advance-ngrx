@@ -1,0 +1,11 @@
+<div class="card" *ngFor="let item of items">
+    <img [src]=item.image alt="Mango" style="width:150px; height: 140px;">
+    <h3>{{item.name}}</h3>
+    <p class="price">${{item.price}}</p>
+    
+    <div>
+      <button id="Add" (click)="addItem(item)"> + </button> 
+      <input type="text" [(ngModel)]=item.quantity readonly> 
+      <button id="Remove" (click)="removeItem(item)"> - </button></div>
+    <!-- <p><button>Add to Cart</button></p> -->
+  </div>
