@@ -1,0 +1,15 @@
+<div class="headContainer">
+    <section class="row section1">
+        <div class="column">Grocery.</div>
+        <div class="column cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="count"> {{cartCount}} </span>
+        </div>
+    </section>
+    <section class="row section2">
+        <ul>
+            <li class="column" [routerLink]="['/']">Fruits</li>
+            <li class="column" [routerLink]="['/vegitables']">Vegitables</li>
+        </ul>
+    </section>
+</div>
